@@ -18,7 +18,7 @@ az webapp create --name <app_name> --resource-group webapprg --plan asplan
 
 ### Deploy an app from GitHub to Azure App Service
 ```
-az webapp deployment source config --repo-url https://github.com/Azure-Samples/html-docs-hello-world --manual-integration --name <app_name> --resource-group webapprg
+az webapp deployment source config --repo-url https://github.com/Azure-Samples/html-docs-hello-world --branch master --manual-integration --name <app_name> --resource-group webapprg
 ```
 
 ### URL of webapp
